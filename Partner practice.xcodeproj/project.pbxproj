@@ -7,20 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		449C7D0A2A7AF8740081AE6D /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449C7D092A7AF8740081AE6D /* SwiftUIView.swift */; };
 		6A191DB92A79AFDC00D39CEA /* Partner_practiceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A191DB82A79AFDC00D39CEA /* Partner_practiceApp.swift */; };
 		6A191DBB2A79AFDC00D39CEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A191DBA2A79AFDC00D39CEA /* ContentView.swift */; };
 		6A191DBD2A79AFE000D39CEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A191DBC2A79AFE000D39CEA /* Assets.xcassets */; };
 		6A191DC02A79AFE000D39CEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A191DBF2A79AFE000D39CEA /* Preview Assets.xcassets */; };
+		6AD054AC2A7C1A8600EFFF5C /* SecondPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD054AB2A7C1A8600EFFF5C /* SecondPage.swift */; };
+		6AD054AE2A7C1B6E00EFFF5C /* Globalitem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD054AD2A7C1B6E00EFFF5C /* Globalitem.swift */; };
+		6AD054B02A7C24B600EFFF5C /* NorthAmerica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD054AF2A7C24B600EFFF5C /* NorthAmerica.swift */; };
+		6AD054B22A7C2B4E00EFFF5C /* SouthAmerica.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD054B12A7C2B4E00EFFF5C /* SouthAmerica.swift */; };
+		6AD054B42A7C2B8900EFFF5C /* Europe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD054B32A7C2B8900EFFF5C /* Europe.swift */; };
+		6AD054BC2A7C44C600EFFF5C /* US.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD054BB2A7C44C600EFFF5C /* US.swift */; };
+		6AD054BE2A7C4CA600EFFF5C /* Canada.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD054BD2A7C4CA600EFFF5C /* Canada.swift */; };
+		6AD054C02A7C4EB000EFFF5C /* Argentina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD054BF2A7C4EB000EFFF5C /* Argentina.swift */; };
+		6AD054C22A7C4EC900EFFF5C /* Colombia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD054C12A7C4EC900EFFF5C /* Colombia.swift */; };
+		6AD054C42A7C4ED500EFFF5C /* Norway.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD054C32A7C4ED500EFFF5C /* Norway.swift */; };
+		6AD054C62A7C4EE600EFFF5C /* Romania.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD054C52A7C4EE600EFFF5C /* Romania.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		449C7D092A7AF8740081AE6D /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		6A191DB52A79AFDC00D39CEA /* Partner practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Partner practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A191DB82A79AFDC00D39CEA /* Partner_practiceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Partner_practiceApp.swift; sourceTree = "<group>"; };
 		6A191DBA2A79AFDC00D39CEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A191DBC2A79AFE000D39CEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A191DBF2A79AFE000D39CEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AD054AB2A7C1A8600EFFF5C /* SecondPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPage.swift; sourceTree = "<group>"; };
+		6AD054AD2A7C1B6E00EFFF5C /* Globalitem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globalitem.swift; sourceTree = "<group>"; };
+		6AD054AF2A7C24B600EFFF5C /* NorthAmerica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthAmerica.swift; sourceTree = "<group>"; };
+		6AD054B12A7C2B4E00EFFF5C /* SouthAmerica.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SouthAmerica.swift; sourceTree = "<group>"; };
+		6AD054B32A7C2B8900EFFF5C /* Europe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Europe.swift; sourceTree = "<group>"; };
+		6AD054BB2A7C44C600EFFF5C /* US.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = US.swift; sourceTree = "<group>"; };
+		6AD054BD2A7C4CA600EFFF5C /* Canada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canada.swift; sourceTree = "<group>"; };
+		6AD054BF2A7C4EB000EFFF5C /* Argentina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Argentina.swift; sourceTree = "<group>"; };
+		6AD054C12A7C4EC900EFFF5C /* Colombia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colombia.swift; sourceTree = "<group>"; };
+		6AD054C32A7C4ED500EFFF5C /* Norway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Norway.swift; sourceTree = "<group>"; };
+		6AD054C52A7C4EE600EFFF5C /* Romania.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Romania.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +74,18 @@
 			isa = PBXGroup;
 			children = (
 				6A191DB82A79AFDC00D39CEA /* Partner_practiceApp.swift */,
+				6AD054AB2A7C1A8600EFFF5C /* SecondPage.swift */,
+				6AD054B32A7C2B8900EFFF5C /* Europe.swift */,
+				6AD054B12A7C2B4E00EFFF5C /* SouthAmerica.swift */,
+				6AD054AF2A7C24B600EFFF5C /* NorthAmerica.swift */,
+				6AD054BF2A7C4EB000EFFF5C /* Argentina.swift */,
+				6AD054C12A7C4EC900EFFF5C /* Colombia.swift */,
+				6AD054C32A7C4ED500EFFF5C /* Norway.swift */,
+				6AD054C52A7C4EE600EFFF5C /* Romania.swift */,
+				6AD054BD2A7C4CA600EFFF5C /* Canada.swift */,
+				6AD054BB2A7C44C600EFFF5C /* US.swift */,
 				6A191DBA2A79AFDC00D39CEA /* ContentView.swift */,
-				449C7D092A7AF8740081AE6D /* SwiftUIView.swift */,
+				6AD054AD2A7C1B6E00EFFF5C /* Globalitem.swift */,
 				6A191DBC2A79AFE000D39CEA /* Assets.xcassets */,
 				6A191DBE2A79AFE000D39CEA /* Preview Content */,
 			);
@@ -140,9 +170,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AD054B22A7C2B4E00EFFF5C /* SouthAmerica.swift in Sources */,
+				6AD054B42A7C2B8900EFFF5C /* Europe.swift in Sources */,
+				6AD054AC2A7C1A8600EFFF5C /* SecondPage.swift in Sources */,
+				6AD054C02A7C4EB000EFFF5C /* Argentina.swift in Sources */,
 				6A191DBB2A79AFDC00D39CEA /* ContentView.swift in Sources */,
+				6AD054BC2A7C44C600EFFF5C /* US.swift in Sources */,
+				6AD054B02A7C24B600EFFF5C /* NorthAmerica.swift in Sources */,
+				6AD054C22A7C4EC900EFFF5C /* Colombia.swift in Sources */,
 				6A191DB92A79AFDC00D39CEA /* Partner_practiceApp.swift in Sources */,
-				449C7D0A2A7AF8740081AE6D /* SwiftUIView.swift in Sources */,
+				6AD054C42A7C4ED500EFFF5C /* Norway.swift in Sources */,
+				6AD054AE2A7C1B6E00EFFF5C /* Globalitem.swift in Sources */,
+				6AD054BE2A7C4CA600EFFF5C /* Canada.swift in Sources */,
+				6AD054C62A7C4EE600EFFF5C /* Romania.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
