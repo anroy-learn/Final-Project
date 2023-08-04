@@ -9,7 +9,23 @@ import SwiftUI
 
 struct US: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Image("Western")
+                .resizeable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+            VStack{
+                Text("Western clothing")
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+                    .foregroundColor(Color.black)
+                Image("Hawaiian")
+                    .resizable(resizingMode: .strech)
+                    .aspectRatio(contentMode: .fit)
+                Text("Hawaiian Clothing")
+                
+            }
+        }
+        
     }
 }
 

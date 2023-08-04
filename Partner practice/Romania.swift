@@ -9,7 +9,23 @@ import SwiftUI
 
 struct Romania: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Image("Rauna")
+                .resizeable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+            VStack{
+                Text("Rauna clothing")
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+                    .foregroundColor(Color.black)
+                Image("Vueltiao")
+                    .resizable(resizingMode: .strech)
+                    .aspectRatio(contentMode: .fit)
+                Text("Vueltiao Clothing")
+                
+            }
+        }
+        
     }
 }
 

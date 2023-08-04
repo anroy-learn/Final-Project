@@ -9,12 +9,27 @@ import SwiftUI
 
 struct Argentina: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack{
+            Image("Gaucho")
+                .resizeable(resizingMode: .stretch)
+                .aspectRatio(contentMode: .fit)
+            VStack{
+                Text("Gaucho clothing")
+                    .font(.largeTitle)
+                    .fontWeight(.heavy)
+                    .foregroundColor(Color.black)
+                Image("Poncho")
+                    .resizable(resizingMode: .strech)
+                    .aspectRatio(contentMode: .fit)
+                Text("Poncho Clothing")
+            }
+        }
     }
 }
-
+        
 struct Argentina_Previews: PreviewProvider {
     static var previews: some View {
         Argentina()
     }
 }
+
