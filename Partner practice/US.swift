@@ -10,16 +10,16 @@ import SwiftUI
 struct US: View {
     var body: some View {
         ZStack{
-            Image("Western")
-                .resizeable(resizingMode: .stretch)
-                .aspectRatio(contentMode: .fit)
             VStack{
                 Text("Western clothing")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .foregroundColor(Color.black)
+                Image("Western")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
                 Image("Hawaiian")
-                    .resizable(resizingMode: .strech)
+                    .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                 Text("Hawaiian Clothing")
                 

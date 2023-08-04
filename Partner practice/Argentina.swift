@@ -10,18 +10,18 @@ import SwiftUI
 struct Argentina: View {
     var body: some View {
         ZStack{
-            Image("Gaucho")
-                .resizeable(resizingMode: .stretch)
-                .aspectRatio(contentMode: .fit)
             VStack{
-                Text("Gaucho clothing")
+                Text("Argentina")
                     .font(.largeTitle)
                     .fontWeight(.heavy)
                     .foregroundColor(Color.black)
                 Image("Poncho")
-                    .resizable(resizingMode: .strech)
+                    .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
-                Text("Poncho Clothing")
+                Image("Argentina 1")
+                    .resizable(resizingMode: .stretch)
+                    .aspectRatio(contentMode: .fit)
+                Text("Poncho and Gaucho Clothing")
             }
         }
     }
