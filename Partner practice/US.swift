@@ -11,7 +11,7 @@ struct US: View {
     var body: some View {
         ZStack{
             Image("Western")
-                .resizeable(resizingMode: .stretch)
+            (resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
             VStack{
                 Text("Western clothing")

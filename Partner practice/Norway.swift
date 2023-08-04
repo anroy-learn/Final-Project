@@ -11,7 +11,7 @@ struct Norway: View {
     var body: some View {
         ZStack{
             Image("Bunad")
-                .resizeable(resizingMode: .stretch)
+                .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
             VStack{
                 Text("Bunad clothing")
@@ -19,7 +19,7 @@ struct Norway: View {
                     .fontWeight(.heavy)
                     .foregroundColor(Color.black)
                 Image("Gakti")
-                    .resizable(resizingMode: .strech)
+                    .resizable(resizingMode: .stretch)
                     .aspectRatio(contentMode: .fit)
                 Text("Gakti Clothing")
                 
